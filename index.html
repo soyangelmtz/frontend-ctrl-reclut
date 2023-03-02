@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/frontend-ctrl-reclut/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/frontend-ctrl-reclut/style.css">
+
+    <title>Control de Reclutamiento</title>
+</head>
+<body>
+
+    <!-- BARRA DE NAVEGACION VERTICAL -->
+   <nav class="navmenu">
+    <ul>
+        <li><a class="active" href="#"> Información básica </a></li>
+        <li><a href="#"> Identificación y ubicación </a></li>
+        <li><a href="#"> Detalles del proyecto </a></li>
+        <li><a href="#"> Asignación </a></li>
+    </ul>
+   </nav>
+
+
+   <!-- HEADER E IMAGEN DE NEORIS -->
+    <div class="container-header">
+        <div class="logo-header-container">
+            <img class="logo-header" src="/img/header-logo.png" alt="Logo de Neoris Mexico" srcset="">
+        </div>
+        <div class="text-header">
+        <p id="header" class="header header-active">Información Básica</p>
+    <!-- <p id="header" class="header">Identificación y ubicación</p>
+    <p id="header" class="header">Detalles del proyecto</p>
+    <p id="header" class="header">Asignación</p> -->
+        </div>
+    </div>
+
+
+   <!-- FORMULARIO PRINCIPAL EN 4 PASOS -->
+    <div class="form-container">
+        <form action="/path here" method="POST" id="form" novalidate>
+            <div class="form">
+                <h1>Registro</h1>
+                <div class="grupo">
+                    <input type="text" name="" id="name" >
+                    <span class="barra"></span>
+                    <label for="">Nombre</label>
+                </div>
+
+                <div class="grupo">
+                    <input type="email" name="" id="email" >
+                    <span class="barra"></span>
+                    <label for="">Email</label>
+                </div>
+
+                <div class="grupo">
+                    <input type="text" id="password" >
+                    <span class="barra"></span>
+                    <label for="">Password</label>
+                </div>
+
+                
+                <button type="submit">Subscribe</button>
+                <p class="warnings" id="warnings"></p>
+            </div>
+
+
+
+        </form>
+    </div>
+    <script src="/frontend-ctrl-reclut/validaciones.js"></script>
+   <script src="/frontend-ctrl-reclut/script.js"></script>
+</body>
+</html>
